@@ -42,7 +42,7 @@ header {
     text-align: center;
     font-size: 14pt;
     display: inline-block;
-    margin-left: 4cm;
+    margin: left 0;
 }
 
 .left-section .github a,
@@ -126,15 +126,15 @@ footer {
       background: #808080;
     }
     100% {
-      background: #DCDCDC;
+      background: #e8b8b8;
     }
   }
   @keyframes color-change-2x {
     0% {
-      background: #A9A9A9;
+      background: #969696;
     }
     100% {
-      background: #B0C4DE;
+      background: #a6bbd6;
     }
   }
   
