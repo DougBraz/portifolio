@@ -257,8 +257,8 @@ body {
 }
 
 .video-wrapper {
-  position: relative;
-  padding-bottom: 100%;
+  position:relative;
+  padding-bottom: 20%;
   /* Proporção de aspecto 16:9 (dividindo a altura pela largura e multiplicando por 100) */
   height: 100%;
   overflow: hidden;
