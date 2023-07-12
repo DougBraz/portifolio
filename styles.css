@@ -131,6 +131,7 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
+
 }
 
 @-webkit-keyframes tracking-in-expand-fwd {
@@ -264,5 +265,30 @@ body {
   overflow: hidden;
   border-radius: 30px;
 }
+#whatsapp {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(5, 251, 5, 0.3);
+  color: rgb(245, 245, 245);
+  font-size: 50px;
+  border-radius: 50%;
+  border: none;
+  bottom: 15px;
+  right: 10px;
+  margin-bottom: 17.5cm;
+  margin-right: 6cm;
+  justify-content:center;
+  align-items: center;
+  padding-bottom: 0%;
+  position: fixed;
+  
+}
+#whatsapp:hover {
+  cursor:pointer;
+  z-index: 9999;
+  display: flex;
 
-/*  adicinar botao whatsapp,  */
+  
+
+}
+
