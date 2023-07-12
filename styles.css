@@ -249,18 +249,21 @@ body {
     transform-origin: top left;
   }
 }
-.video-section {
+.video-container {
   display: flex;
   justify-content: center;
-  margin-top: 0.2cm;
-  position: fixed;
-  margin-left: 2.5cm;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .video-wrapper {
-  border-radius: 50px;
-  overflow: hidden;  
+  position: relative;
+  padding-bottom: 80%;
+  /* Proporção de aspecto 16:9 (dividindo a altura pela largura e multiplicando por 100) */
+  height: 0;
+  overflow: hidden;
+  border-radius: 30px
 }
 
 
-/*  adicinar botao whatsapp, ver a responsividade do carrossel e dos titulos  (midia querie), colocar video youtube.   */
+/*  adicinar botao whatsapp, ver a responsividade do carrossel e dos titulos evideo youtube (midia querie),  */
